@@ -1,0 +1,5 @@
+<table>
+  <tr> filas de las tablas
+    <td> </td> información de esta dentro de la fila
+  </tr> 
+</table>
