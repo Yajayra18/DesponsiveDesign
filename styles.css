@@ -15,7 +15,7 @@ Al agregar estilos, se acomoda por temas.
   --secondary-blue:#1A9AF7;
   --soft-blue: #E7F5FF;
   --warm-black: #201E1C;
-  --back: #282623;
+  --black: #282623;
   --grey: #BABABA;
   --off-white:#FAF8F7;
   --just-white: #FFFFFF;
@@ -216,7 +216,7 @@ main {
   color: #757575;
 }
 
-.currency-table--container .downr {
+.currency-table--container .down {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -239,11 +239,146 @@ main {
 }
 
 .currency-table--date {
-  width: 1190px;
+  width: 190px;
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
   padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 8px;
+}
+
+.currency-table--date p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  height: 1.5rem;
+  color: var(--warm-black);
+}
+
+.main-currency-comisiones {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.main-currency-comisiones .currency-comisiones--tittle {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
+}
+
+.currency-comisiones--date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--soft-blue);
+  border-radius: 8px;
+}
+
+.currency-comisiones--date p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  height: 1.5rem;
+  color: var(--warm-black);
+}
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail--batata-logo{
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url('./assets/icons/batata.svg');
+  background-repeat: no-repeat;
+}
+
+.product-detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align:center;
+}
+
+.product-detail--title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  min-height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.product-detail--card span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-detail--card .clock {
+  background-image:url('./assets/icons/clock.svg');
+}
+.product-detail--card .money {
+  background-image:url('./assets/icons/dollar-sign.svg');
+}
+.product-detail--card .eye {
+  background-image:url('./assets/icons/eye.svg');
+}
+.product-detail--card .check {
+  background-image:url('./assets/icons/check-circle.svg');
+}
+
+.product--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
